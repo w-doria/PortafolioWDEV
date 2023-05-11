@@ -714,6 +714,9 @@ footer p{
         display: flex;
         flex-wrap: wrap; /* Agregamos la propiedad flex-wrap y su valor wrap */
     }
+    #contact .text_box{
+        padding-top: 5%;
+    }
 }
 @media (max-width: 1260px) {
     #work .work1 p{
@@ -881,6 +884,14 @@ footer p{
     #home .description p{
         font-size: 15px;
     }
+    #contact .contenedor_contact{
+        margin: 10px 100px 10px 150px;/* arriba derecha abajo izquierda */
+    
+    }
+    #contact .text_box{
+        margin: 120px 100px 10px 150px; /* arriba derecha abajo izquierda */
+
+    }
 
 }
 @media (max-width: 850px) {
@@ -917,6 +928,9 @@ footer p{
         height: 270px;
         width: auto;
     }
+    #contact .text_box{
+        padding-top: 15%;
+    }
 
 }
 @media (max-width: 763px) {
@@ -951,6 +965,7 @@ footer p{
         height: 45px;
         width: auto;
     }
+    
 }
 
 @media (max-width: 594px) {
